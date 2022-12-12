@@ -6,35 +6,194 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>simple_parallex</title>
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="wrapper">
+      <!-- banner and nav-bar section  -->
+      <div class="banner">
+        <div class="first">
+          <h4>Holiday sale | Get 20% off | Use Code <u>HOLIDAY20</u></h4>
+        </div>
+      </div>
+
+      <!-- video section  -->
+      <div class="video">
+        <div class="inside container">
+          <video src="asset/abc.mp4" autoplay width="100%"></video>
+          <img src="asset/b.jpg" alt="" width="100%" />
+
+          <div class="offer">
+            <h1>Boxing day offer!</h1>
+          </div>
+        </div>
+      </div>
+      <hr />
+
+      <!-- nav-bar section  -->
       <section class="top">
         <div class="nav container">
           <div class="logo">parallex</div>
 
           <div class="menu">
             <ul>
-              <li>info</li>
-              <li>uses</li>
-              <li>reviews</li>
+              <li>WATCHES</li>
+              <li>EYEWEAR</li>
+              <li>JEWELLERY</li>
+              <li>GIFTING</li>
+              <li>SALE</li>
+              <li>BRAND</li>
             </ul>
+          </div>
+
+          <div class="side">
+            <a href="#"> <i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#"> <i class="fa-solid fa-user">Account</i></a>
+            <a href="#"><i class="fa-solid fa-cart-shopping">Cart</i></a>
           </div>
         </div>
       </section>
 
-      <!-- Hero section  -->
-      <div class="video-bar">
-        <video src="asset/abc.mp4 " autoplay loop></video>
-        <div class="msg">
-          <h2>short message</h2>
-          <hr />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat!
-          </p>
+      <hr />
+      <!-- card section  -->
+      <section class="card-section">
+        <div class="card-list container">
+          <div class="card">
+            <img src="asset/w.webp" alt="" width="100%" />
+            <div class="description">
+              <h2>Ceramics</h2>
+              <h4>Shop Now</h4>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="asset/x.webp" alt="" width="100%" />
+            <div class="description">
+              <h2>Classic</h2>
+              <h4>Shop Now</h4>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="asset/y.webp" alt="" width="100%" />
+            <div class="description">
+              <h2>Solar Collection</h2>
+              <h4>Shop Now</h4>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="asset/z.webp" alt="" width="100%" />
+            <div class="description">
+              <h2>Legacy Collection</h2>
+              <h4>Shop Now</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- post section  -->
+      <section class="post">
+        <div class="cool">
+          <p><span> </span></p>
+        </div>
+        <section class="img1">
+          <div class="title">WATCHES</div>
+        </section>
+        <!-- <img src="asset/m.webp" alt="" width="100%" /> -->
+
+        <div class="mens">
+          <p>Shop mens</p>
+        </div>
+
+        <div class="womens">
+          <p>Shop womens</p>
+        </div>
+      </section>
+
+      <!-- another box section  -->
+      <div class="box-section">
+        <div class="box">
+          <img src="asset/i.webp" alt="" width="100%" />
+        </div>
+
+        <div class="box">
+          <img src="asset/ii.webp" alt="" width="100%" />
+        </div>
+
+        <div class="box">
+          <img src="asset/iii.webp" alt="" width="100%" />
+        </div>
+
+        <div class="box">
+          <img src="asset/iv.webp" alt="" width="100%" />
         </div>
       </div>
+
+      <!-- trending section  -->
+      <section class="trend">
+        <p>TRENDING NOW</p>
+        <div class="now container">
+          <div class="each">
+            <img src="asset/C.jpg" alt="" width="100%" />
+            <div class="more">
+              <h4>CHRONO CERAMICS</h4>
+              <p>$480.00</p>
+            </div>
+          </div>
+
+          <div class="each">
+            <img src="asset/D.jpg" alt="" width="100%" />
+            <div class="more">
+              <h4>LEGACY SLIM</h4>
+              <p>$190.00</p>
+            </div>
+          </div>
+
+          <div class="each">
+            <img src="asset/E.jpg" alt="" width="100%" />
+            <div class="more">
+              <h4>BLACKTOP</h4>
+              <p>$400.00</p>
+            </div>
+          </div>
+
+          <div class="each">
+            <img src="asset/F.jpg" alt="" width="100%" />
+            <div class="more">
+              <h4>AIRHAWK</h4>
+              <p>$370.00</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- subscribe section  -->
+      <div class="subscribe">
+        <h2>JOIN THE PARALLEX, GET 10% OFF</h2>
+
+        <form action="">
+          <!-- <div class="form"> -->
+          <input type="email" placeholder="Enter Email Address" />
+
+          <!-- </div> -->
+          <input type="submit" value="Subscribe" />
+          <p>
+            <a href="#"> TERMS AND CONDITION </a> apply,view our
+            <a href="#">PRIVACY POLICY</a>
+          </p>
+        </form>
+      </div>
+
+      <footer>&Copy 2022. All rights reserved!</footer>
     </div>
   </body>
 </html>
