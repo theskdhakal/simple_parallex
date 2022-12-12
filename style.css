@@ -10,8 +10,8 @@
 }
 
 .banner {
-  background-color: black;
-  color: white;
+  background-color: skyblue;
+  color: red;
   padding: 20px;
 
   animation: move 10s ease infinite;
@@ -299,6 +299,11 @@ footer {
 @media (max-width: 1224px) {
   .nav {
     font-size: 11px;
+  }
+
+  .inside {
+    display: flex;
+    justify-content: center;
   }
 
   .menu ul {
